@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(98, 98, 240)
+}
+
+.responsive_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.responsive_card {
+    width: 300px;
+    background-color: rgb(162, 241, 247);
+    margin: 20px;
+    padding: 30px;
+}
+
+.responsive_card:nth-child(2) {
+
+    background-color: rgb(68, 76, 121);
+}
+
+.responsive_card:nth-child(3) {
+
+    background-color: rgb(152, 38, 197);
+}
+
+.responsive_card:last-child {
+
+    background-color: rgb(119, 53, 105);
+}
+
+img {
+    width: 100%;
+}
+
+.card_content {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card_payment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 16px;
+    border: none;
+}
